@@ -1,0 +1,28 @@
+
+postgres:
+    dbms: "postgres"
+    user: "keenlichterman"
+    pass: "0a6JHg#$c4"
+    host: "postgres143.vanishdb.com"
+    port: "5432"
+    dbname: "keenlichterman"
+    option: "sslmode=disable"
+
+
+smtp:
+    user: "test@local.test"
+    password: "test"
+    from : "contact@asma.im"
+    host : "localhost"
+    port : "1025"
+    
+redis:
+    host: "localhost"
+    port: "6379" 
+
+
+link:
+    host: "localhost"
+    port: "3011"  
+
+token: "EbEsjoBgLdog8iyDfDIH4XVoGgocgvun"    

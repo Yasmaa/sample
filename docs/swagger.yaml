@@ -1,0 +1,12 @@
+info:
+  contact: {}
+paths:
+  /api/create:
+    post:
+      consumes:
+      - application/json
+      description: create a user
+      produces:
+      - application/json
+      summary: Create a user
+swagger: "2.0"

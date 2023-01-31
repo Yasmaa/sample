@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  web:
+    build:
+      context: .
+    network_mode: "host"
+  redis:
+    container_name: "redis"
+    image: "redis:alpine"
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - "6379:6379"
+    volumes:
+      - $PWD/configs/redis.conf:/usr/local/etc/redis/redis.conf
